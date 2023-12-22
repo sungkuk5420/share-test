@@ -19,7 +19,7 @@ export default defineComponent({
 import { onMounted } from 'vue'
 
 onMounted(() => {
-  Kakao.init('a6eda92a80494cc35f7f77236b67b8e2'); 
+  Kakao.init('f5c45ef031d839cd5d6763b12b7adfc1'); 
   Kakao.Share.createDefaultButton({
     container: '#kakaotalk-sharing-btn',
     objectType: 'feed',
@@ -61,7 +61,7 @@ onMounted(() => {
  const shareKakao = ()=>{
       Kakao.Share.sendScrap({
         requestUrl: 'https://developers.kakao.com',
-        templateId: 102174,
+        templateId: 102185,
       });
 }
 </script>
