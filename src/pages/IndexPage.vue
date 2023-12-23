@@ -1,5 +1,5 @@
 <template>
-  <q-page class="flex flex-center column">
+  <q-page class="flex justify-center items-start column">
     <img src="~assets/main-image.png" alt="" srcset="">
     <q-btn class="share-button" @click="shareKakao" flat></q-btn>
   </q-page>
@@ -30,11 +30,23 @@ onMounted(() => {
 }
 </script>
 <style>
+.q-page-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+img{
+    margin-bottom: auto;
+}
 .share-button{
   position: absolute;
   top: 552px;
   z-index: 1;
   width: 280px;
   height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
 }
 </style>
