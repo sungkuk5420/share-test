@@ -32,9 +32,9 @@ onMounted(() => {
 <style>
 .share-button{
   position: absolute;
-  top: 622px;
+  top: 552px;
   z-index: 1;
   width: 280px;
-  height: 70px;
+  height: 10vh;
 }
 </style>
