@@ -23,6 +23,9 @@ onMounted(() => {
       Kakao.Share.sendScrap({
         requestUrl: 'https://developers.kakao.com',
         templateId: 102185,
+        serverCallbackArgs: {
+          key: 'value', // 사용자 정의 파라미터 설정
+        },
       });
 }
 </script>
