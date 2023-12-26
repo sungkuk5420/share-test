@@ -26,6 +26,9 @@ onMounted(() => {
         serverCallbackArgs: {
           key: 'value', // 사용자 정의 파라미터 설정
         },
+        callback:()=>{
+          alert("공유 완료")
+        }
       });
 }
 </script>
